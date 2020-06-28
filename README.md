@@ -1,68 +1,51 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center">
+  CLUSTER TESTE
+</h4>
+<p align="center">
+ 1280X800 - PRINT VIEW
+  <img alt="layout" src=".github/ss.png">
+   
+</p>
+<p align="center">
+IPHONE - X PRINT VIEW
+  <img alt="layout" src=".github/mobile.png">
+   <img alt="layout" src=".github/mobile2.png">
+</p>
 
-## Available Scripts
+## FRONT END
 
-In the project directory, you can run:
+- [React](https://reactjs.org)
+- [Styled Components]
 
-### `yarn start`
+## Implantação - Observações
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O Teste foi realizado nos browser's Chrome, Mozilla e Opera.
+Foi utilizado o padrão de responsividade proposto pelo teste de 480px para dispositivos mobile.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- Os Links, páginas ativas ficam na cor amarelo.
+  -o side-menu fica disponível apenas para dispositivos mobile, através do botão "hamburguer".
+- O side-menu desliza da esquerda para direita.
 
-### `yarn test`
+## Project
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Desafio Desenvolvimento:
 
-### `yarn build`
+Para o desenvolvimento, poderão ser utilizadas tecnologias web: HTML, CSS, JS ou outra(s). HTML e CSS são obrigatórios.
+Frameworks de apoio (Bootstrap, Bulma) são permitidos, mas não obrigatórios.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    1. Fonte
+    - Todas as fontes são "Roboto Condensed" (baixar do Google Fonts)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+    2. Mobile
+    - São considerados mobile dispositivos que possuam telas com largura menor que 480px.
+    - A tela mobile deverá empilhar os conteúdos, ou seja, as colunas deverão virar linhas.
+    - O menu deverá estar escondido, podendo ser aberto com um botão 'hamburger'.
+    - O menu deverá ser aberto da esquerda para a direita. O layout do menu é de livre criação pelo candidato, desde que corresponda aos itens do menu desktop.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Install
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Download and install: Node JS, React
+- Clone ou download repositório
+- cd na pasta cluster-test
+- npm install or yarn para baixar as dependências. (preferência yarn para evitar conflitos)
+- run yarn start ou npm start
