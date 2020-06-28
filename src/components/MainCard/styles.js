@@ -41,6 +41,7 @@ export const Container = styled.div`
     padding: 2rem;
     background: url(${backgroundSection}) no-repeat center;
     background-size: auto;
+    min-height: 30rem;
   }
   @media screen and (max-height: 600px) {
     padding: 2rem;
