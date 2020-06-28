@@ -12,8 +12,8 @@ html {
     font-size: 62.5%;
   }
 body {
-  background: #fff;
-  color:#fff;
+  background: var(--white);
+  color: var(--white);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -32,17 +32,14 @@ button {
 
 }
 :root {
-  --primary: #36393f;
+  --primary: #ff9933;
   --secondary: #2f3136;
-  
    
-    --white: #fff;
-    --gray: #8a8c90;
-
-    --notification: #f84a4b;
-
+  --white: #fff;
+  --black: #000;
+  --gray: #ccc;
  
-    --link: #5d80d6;
+  --active: #ffff1a;
  
 }
 `;

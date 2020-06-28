@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.nav`
-  background-color: #ff9933;
-  padding: 1rem 6rem;
+  background-color: var(--primary);
+  padding: 1rem 4rem;
   overflow: hidden;
   position: relative;
 
@@ -40,13 +40,13 @@ export const TopBar = styled.div`
   li,
   a {
     list-style: none;
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
   }
   a:hover,
   a:active {
-    color: yellow;
+    color: var(--active);
   }
 `;
 
@@ -72,10 +72,10 @@ export const SideBar = styled.div`
     list-style: none;
     font-size: 2.4rem;
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
   }
   a:hover {
-    color: yellow;
+    color: var(--active);
   }
   @media screen and (max-width: 480px) {
     margin-top: 15px;

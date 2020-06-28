@@ -4,9 +4,9 @@ export const Container = styled.div`
   display: flex;
   flex: 1;
   flex-direction: column;
-  padding: 6rem;
-  background: #a0a0a0;
-  color: #000;
+  padding: 4rem;
+  background: var(--gray);
+  color: var(--black);
   justify-content: center;
 
   overflow: hidden;
@@ -23,13 +23,13 @@ export const Container = styled.div`
   cursor: pointer;
 
   h2 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   p {
     overflow: hidden;
     text-overflow: ellipsis;
     margin-top: 2rem;
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   & + div {
     margin-left: 3rem;

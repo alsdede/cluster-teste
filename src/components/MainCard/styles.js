@@ -5,13 +5,13 @@ export const Container = styled.div`
   display: flex;
   flex: 1;
   flex-direction: column;
-  min-height: 30rem;
+  min-height: 20rem;
   background: url(${backgroundSection}) no-repeat center;
   background-size: cover;
   height: 100%;
   width: 100%;
-  color: #fff;
-  padding: 6rem;
+  color: var(--white);
+  padding: 5rem;
   justify-content: flex-end;
 
   cursor: pointer;
@@ -27,7 +27,7 @@ export const Container = styled.div`
   }
 
   h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     max-width: 50rem;
   }
   p {
@@ -44,5 +44,13 @@ export const Container = styled.div`
   }
   @media screen and (max-height: 600px) {
     padding: 2rem;
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 1.6rem;
+    }
   }
 `;
